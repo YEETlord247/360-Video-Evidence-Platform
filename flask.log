@@ -1,0 +1,465 @@
+Starting 360 Video Processor Web Interface...
+Open your browser and go to: http://localhost:5000
+ * Serving Flask app 'web_app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.140.44.241:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 916-418-126
+127.0.0.1 - - [11/Jul/2025 09:39:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:39:29] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 09:39:29] "GET /static/uevent.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 09:39:29] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:39:29] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 09:39:29] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 09:39:40] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 09:39:40] "GET /sm/6e1cf618058ab48868e5db5dfff14558719776929185eb69b3789d1452b3a600.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 09:39:40] "GET /sm/5417b0b9edb4299d3b03655f52629fb2155e2b4a09bb7e30479484269b91fe82.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 09:39:41] "GET /sm/a2678bbe5e854163b28b91352018ec64e347ebc284a9ee61e78110d9550fda9a.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 09:39:55] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 09:43:45] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:43:45] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:43:45] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:43:45] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:43:45] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:43:45] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 09:43:53] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:44:53] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:44:53] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:44:53] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:44:53] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:44:53] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:44:53] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 09:44:58] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:45:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:45:13] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:45:13] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:45:13] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:45:13] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:45:13] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 09:46:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:46:36] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:46:36] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:46:36] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:46:36] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 09:46:36] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 09:46:42] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:17:35] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:17:35] "GET /sm/6e1cf618058ab48868e5db5dfff14558719776929185eb69b3789d1452b3a600.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:17:35] "GET /sm/5417b0b9edb4299d3b03655f52629fb2155e2b4a09bb7e30479484269b91fe82.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:17:35] "GET /sm/a2678bbe5e854163b28b91352018ec64e347ebc284a9ee61e78110d9550fda9a.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:17:45] "GET /frame_image?timestamp=44.472705 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:23:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:23:46] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:23:46] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:23:46] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:23:46] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:23:46] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 13:23:52] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:23:57] "GET /frame_image?timestamp=20.88 HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:26:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:26:08] "GET /static/axon_logo.png HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:26:08] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:26:08] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:26:08] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:26:08] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:26:08] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 13:29:02] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:29:02] "GET /static/axon_logo.png HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:29:02] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:29:02] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:29:02] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:29:02] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:29:02] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 13:29:11] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:30:20] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:30:20] "GET /static/AXON-DELTA-GOLD.png HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:30:20] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:30:20] "GET /static/uevent.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:30:20] "GET /static/three.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:30:20] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:30:20] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 13:30:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:30:22] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:30:22] "GET /static/AXON-DELTA-GOLD.png HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:30:22] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:30:22] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:30:22] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:30:22] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 13:30:26] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:30:30] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:30:30] "GET /sm/6e1cf618058ab48868e5db5dfff14558719776929185eb69b3789d1452b3a600.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:30:30] "GET /sm/5417b0b9edb4299d3b03655f52629fb2155e2b4a09bb7e30479484269b91fe82.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:30:30] "GET /sm/a2678bbe5e854163b28b91352018ec64e347ebc284a9ee61e78110d9550fda9a.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:31:50] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:31:50] "GET /static/AXON-DELTA-GOLD.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:31:50] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:31:50] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:31:50] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:31:50] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:31:50] "GET /sm/a2678bbe5e854163b28b91352018ec64e347ebc284a9ee61e78110d9550fda9a.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:31:50] "GET /sm/6e1cf618058ab48868e5db5dfff14558719776929185eb69b3789d1452b3a600.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:31:50] "GET /sm/5417b0b9edb4299d3b03655f52629fb2155e2b4a09bb7e30479484269b91fe82.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:31:50] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 13:32:42] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:33:16] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:33:16] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:33:16] "GET /static/AXON-DELTA-GOLD.png HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:33:16] "GET /static/uevent.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:33:16] "GET /static/three.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:33:16] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:33:16] "GET /favicon.ico HTTP/1.1" 204 -
+ * Detected change in '/Users/urai/Desktop/360 video/main.py', reloading
+Starting 360 Video Processor Web Interface...
+Open your browser and go to: http://localhost:5000
+Video loaded: 2048x1024, 29.97002997002997 FPS, 76.98s duration
+Video loaded: 2048x1024, 29.97002997002997 FPS, 76.98s duration
+Video loaded: 2048x1024, 29.97002997002997 FPS, 76.98s duration
+Video loaded: 2048x1024, 29.97002997002997 FPS, 76.98s duration
+Video loaded: 2048x1024, 29.97002997002997 FPS, 76.98s duration
+Video loaded: 2048x1024, 29.97002997002997 FPS, 76.98s duration
+Video loaded: 2048x1024, 29.97002997002997 FPS, 76.98s duration
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 916-418-126
+127.0.0.1 - - [11/Jul/2025 13:35:13] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:35:13] "GET /static/AXON-DELTA-GOLD.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:35:13] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:35:13] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:35:13] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:35:13] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:35:13] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 13:35:17] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [11/Jul/2025 13:35:18] "GET /sm/6e1cf618058ab48868e5db5dfff14558719776929185eb69b3789d1452b3a600.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:35:18] "GET /sm/5417b0b9edb4299d3b03655f52629fb2155e2b4a09bb7e30479484269b91fe82.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:35:18] "GET /sm/a2678bbe5e854163b28b91352018ec64e347ebc284a9ee61e78110d9550fda9a.map HTTP/1.1" 404 -
+127.0.0.1 - - [11/Jul/2025 13:36:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:36:57] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:36:57] "GET /static/AXON-DELTA-GOLD.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:36:57] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:36:57] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:36:57] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:36:57] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 13:38:00] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:38:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:38:30] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:38:30] "GET /static/AXON-DELTA-GOLD.png HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:38:30] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:38:30] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:38:30] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:38:31] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [11/Jul/2025 13:38:54] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [11/Jul/2025 13:39:10] "GET /frame_image?timestamp=12.998744 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 08:48:44] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 08:48:44] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 08:48:44] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 08:48:44] "GET /static/AXON-DELTA-GOLD.png HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jul/2025 08:48:44] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jul/2025 08:48:44] "GET /static/uevent.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jul/2025 08:48:44] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [17/Jul/2025 08:49:15] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 08:49:50] "GET /frame_image?timestamp=45.690415 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 08:50:23] "GET /frame_image?timestamp=59.35 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 08:50:42] "POST /config HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 08:50:42] "POST /config HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:07:08] "POST /process HTTP/1.1" 200 -
+ * Detected change in '/Users/urai/Desktop/360 video/web_app.py', reloading
+Starting 360 Video Processor Web Interface...
+Open your browser and go to: http://localhost:5000
+Video loaded: 2048x1024, 29.97002997002997 FPS, 76.98s duration
+Video loaded: 2048x1024, 29.97002997002997 FPS, 76.98s duration
+Video loaded: 2048x1024, 29.97002997002997 FPS, 76.98s duration
+Received configuration: {'timestamp': 45.690415, 'yaw': 175.25087338915003, 'pitch': -20.901908473402088, 'fov': 90}
+Added config: timestamp=45.690415, yaw=175.25087338915003, pitch=-20.901908473402088, fov=90
+Total configs: 1
+Received configuration: {'timestamp': 59.35, 'yaw': 267.4942174831043, 'pitch': -4.272128464612839, 'fov': 90}
+Added config: timestamp=59.35, yaw=267.4942174831043, pitch=-4.272128464612839, fov=90
+Total configs: 2
+Processing 2307 frames...
+Frame 0, Time 0.00s: yaw=175.3°, pitch=-20.9°, fov=90.0°
+Frame 1, Time 0.03s: yaw=175.3°, pitch=-20.9°, fov=90.0°
+Frame 2, Time 0.07s: yaw=175.3°, pitch=-20.9°, fov=90.0°
+Frame 3, Time 0.10s: yaw=175.3°, pitch=-20.9°, fov=90.0°
+Frame 4, Time 0.13s: yaw=175.3°, pitch=-20.9°, fov=90.0°
+Progress: 1.3% (30/2307)
+Progress: 2.6% (60/2307)
+Progress: 3.9% (90/2307)
+Progress: 5.2% (120/2307)
+Progress: 6.5% (150/2307)
+Progress: 7.8% (180/2307)
+Progress: 9.1% (210/2307)
+Progress: 10.4% (240/2307)
+Progress: 11.7% (270/2307)
+Progress: 13.0% (300/2307)
+Frame 300, Time 10.01s: yaw=175.3°, pitch=-20.9°, fov=90.0°
+Progress: 14.3% (330/2307)
+Progress: 15.6% (360/2307)
+Progress: 16.9% (390/2307)
+Progress: 18.2% (420/2307)
+Progress: 19.5% (450/2307)
+Progress: 20.8% (480/2307)
+Progress: 22.1% (510/2307)
+Progress: 23.4% (540/2307)
+Progress: 24.7% (570/2307)
+Progress: 26.0% (600/2307)
+Frame 600, Time 20.02s: yaw=175.3°, pitch=-20.9°, fov=90.0°
+Progress: 27.3% (630/2307)
+Progress: 28.6% (660/2307)
+Progress: 29.9% (690/2307)
+Progress: 31.2% (720/2307)
+Progress: 32.5% (750/2307)
+Progress: 33.8% (780/2307)
+Progress: 35.1% (810/2307)
+Progress: 36.4% (840/2307)
+Progress: 37.7% (870/2307)
+Progress: 39.0% (900/2307)
+Frame 900, Time 30.03s: yaw=175.3°, pitch=-20.9°, fov=90.0°
+Progress: 40.3% (930/2307)
+Progress: 41.6% (960/2307)
+Progress: 42.9% (990/2307)
+Progress: 44.2% (1020/2307)
+Progress: 45.5% (1050/2307)
+Progress: 46.8% (1080/2307)
+Progress: 48.1% (1110/2307)
+Progress: 49.4% (1140/2307)
+Progress: 50.7% (1170/2307)
+Progress: 52.0% (1200/2307)
+Frame 1200, Time 40.04s: yaw=175.3°, pitch=-20.9°, fov=90.0°
+Progress: 53.3% (1230/2307)
+Progress: 54.6% (1260/2307)
+Progress: 55.9% (1290/2307)
+Progress: 57.2% (1320/2307)
+Progress: 58.5% (1350/2307)
+Progress: 59.8% (1380/2307)
+Progress: 61.1% (1410/2307)
+Progress: 62.4% (1440/2307)
+Progress: 63.7% (1470/2307)
+Progress: 65.0% (1500/2307)
+Frame 1500, Time 50.05s: yaw=175.3°, pitch=-20.9°, fov=90.0°
+Progress: 66.3% (1530/2307)
+Progress: 67.6% (1560/2307)
+Progress: 68.9% (1590/2307)
+Progress: 70.2% (1620/2307)
+Progress: 71.5% (1650/2307)
+Progress: 72.8% (1680/2307)
+Progress: 74.1% (1710/2307)
+Progress: 75.4% (1740/2307)
+Progress: 76.7% (1770/2307)
+Progress: 78.0% (1800/2307)
+Frame 1800, Time 60.06s: yaw=267.5°, pitch=-4.3°, fov=90.0°
+Progress: 79.3% (1830/2307)
+Progress: 80.6% (1860/2307)
+Progress: 81.9% (1890/2307)
+Progress: 83.2% (1920/2307)
+Progress: 84.5% (1950/2307)
+Progress: 85.8% (1980/2307)
+Progress: 87.1% (2010/2307)
+Progress: 88.4% (2040/2307)
+Progress: 89.7% (2070/2307)
+Progress: 91.0% (2100/2307)
+Frame 2100, Time 70.07s: yaw=267.5°, pitch=-4.3°, fov=90.0°
+Progress: 92.3% (2130/2307)
+Progress: 93.6% (2160/2307)
+Progress: 94.9% (2190/2307)
+Progress: 96.2% (2220/2307)
+Progress: 97.5% (2250/2307)
+Progress: 98.8% (2280/2307)
+Video processing complete! Output saved to: outputs/processed_20250717_085042.mp4
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 916-418-126
+127.0.0.1 - - [17/Jul/2025 09:10:42] "GET /sm/6e1cf618058ab48868e5db5dfff14558719776929185eb69b3789d1452b3a600.map HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jul/2025 09:10:42] "GET /sm/5417b0b9edb4299d3b03655f52629fb2155e2b4a09bb7e30479484269b91fe82.map HTTP/1.1" 404 -
+127.0.0.1 - - [17/Jul/2025 09:10:42] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [17/Jul/2025 09:10:42] "GET /sm/a2678bbe5e854163b28b91352018ec64e347ebc284a9ee61e78110d9550fda9a.map HTTP/1.1" 404 -
+ * Detected change in '/Users/urai/Desktop/360 video/web_app.py', reloading
+Starting 360 Video Processor Web Interface...
+Open your browser and go to: http://localhost:5000
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 916-418-126
+ * Detected change in '/Users/urai/Desktop/360 video/main.py', reloading
+Starting 360 Video Processor Web Interface...
+Open your browser and go to: http://localhost:5000
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 916-418-126
+127.0.0.1 - - [17/Jul/2025 09:11:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:11:18] "GET /static/photo-sphere-viewer.min.css HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:11:18] "GET /static/AXON-DELTA-GOLD.png HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:11:18] "GET /static/three.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:11:18] "GET /static/photo-sphere-viewer.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:11:18] "GET /static/uevent.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:11:18] "GET /favicon.ico HTTP/1.1" 204 -
+127.0.0.1 - - [17/Jul/2025 09:11:24] "POST /upload HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:11:34] "GET /frame_image?timestamp=16.8 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:11:47] "GET /frame_image?timestamp=29.91 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:11:58] "GET /frame_image?timestamp=36.73 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:12:17] "GET /frame_image?timestamp=50.37 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:12:45] "GET /frame_image?timestamp=58.88 HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:12:56] "POST /config HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:12:56] "POST /config HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:12:56] "POST /config HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:12:56] "POST /config HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:12:56] "POST /config HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:12:57] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:12:58] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:12:59] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:00] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:01] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:02] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:03] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:04] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:05] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:06] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:07] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:08] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:09] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:10] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:11] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:12] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:13] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:14] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:15] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:16] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:17] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:18] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:19] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:20] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:21] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:22] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:23] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:24] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:25] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:26] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:27] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:28] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:29] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:30] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:31] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:32] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:33] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:34] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:35] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:36] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:37] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:38] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:39] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:40] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:41] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:42] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:43] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:44] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:45] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:46] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:47] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:48] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:49] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:50] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:51] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:52] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:53] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:54] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:55] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:56] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:57] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:58] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:13:59] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:00] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:01] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:02] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:03] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:04] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:05] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:06] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:07] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:08] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:09] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:10] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:11] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:12] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:13] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:14] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:15] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:16] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:17] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:18] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:19] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:20] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:21] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:22] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:23] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:24] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:25] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:26] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:27] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:28] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:29] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:30] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:31] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:32] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:33] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:34] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:35] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:36] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:37] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:38] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:39] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:40] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:41] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:42] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:43] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:44] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:45] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:46] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:47] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:48] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:49] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:50] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:51] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:52] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:53] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:54] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:55] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:56] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:57] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:58] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:14:59] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:00] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:01] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:03] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:04] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:05] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:05] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:06] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:07] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:08] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:09] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:10] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:11] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:12] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:13] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:14] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:15] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:16] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:17] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:18] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:19] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:20] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:21] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:22] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:23] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:24] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:25] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:26] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:27] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:28] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:29] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:30] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:31] "GET /progress HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:37] "POST /process HTTP/1.1" 200 -
+127.0.0.1 - - [17/Jul/2025 09:15:49] "GET /download/processed_20250717_091256.mp4 HTTP/1.1" 200 -

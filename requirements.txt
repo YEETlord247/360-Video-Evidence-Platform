@@ -1,0 +1,14 @@
+# Core video processing
+opencv-python==4.8.1.78
+numpy==1.24.3
+Pillow==10.0.0
+
+# Web framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Video processing utilities
+ffmpeg-python==0.2.0
+
+# Development and debugging
+python-dotenv==1.0.0 

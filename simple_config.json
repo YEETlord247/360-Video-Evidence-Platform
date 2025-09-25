@@ -1,0 +1,31 @@
+{
+  "video_path": "dummy_video.mp4",
+  "fps": 30,
+  "duration": 180,
+  "view_configs": [
+    {
+      "timestamp": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "fov": 90
+    },
+    {
+      "timestamp": 60,
+      "yaw": 90,
+      "pitch": 0,
+      "fov": 90
+    },
+    {
+      "timestamp": 120,
+      "yaw": 180,
+      "pitch": 0,
+      "fov": 90
+    },
+    {
+      "timestamp": 180,
+      "yaw": 270,
+      "pitch": 0,
+      "fov": 90
+    }
+  ]
+}

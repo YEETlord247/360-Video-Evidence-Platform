@@ -1,0 +1,49 @@
+{
+  "video_path": "sample_360_video.mp4",
+  "fps": 29.97002997002997,
+  "duration": 76.9769,
+  "view_configs": [
+    {
+      "timestamp": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "fov": 90
+    },
+    {
+      "timestamp": 30,
+      "yaw": 0,
+      "pitch": 0,
+      "fov": 90
+    },
+    {
+      "timestamp": 60,
+      "yaw": 90,
+      "pitch": 0,
+      "fov": 90
+    },
+    {
+      "timestamp": 90,
+      "yaw": 90,
+      "pitch": 0,
+      "fov": 90
+    },
+    {
+      "timestamp": 120,
+      "yaw": -45,
+      "pitch": 30,
+      "fov": 90
+    },
+    {
+      "timestamp": 150,
+      "yaw": -45,
+      "pitch": 30,
+      "fov": 90
+    },
+    {
+      "timestamp": 180,
+      "yaw": 45,
+      "pitch": -20,
+      "fov": 90
+    }
+  ]
+}
